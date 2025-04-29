@@ -5,8 +5,10 @@
 activate environment:
 source env/Scripts/activate
 
-install packages:
+install packages: (only when setting up for first time)
 pip install -r requirements.txt
 
 run application:
 uvicorn app.main:app --reload
+
+To close the server : Ctrl + C
